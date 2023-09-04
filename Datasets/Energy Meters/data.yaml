@@ -1,0 +1,16 @@
+path: ../yolov5/energymeter
+train: train/images
+val: valid/images
+test: test/images
+
+names: 
+  0 : Dato
+  1 : Valor
+
+
+roboflow:
+  workspace: jasser-jv
+  project: energy-meter
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jasser-jv/energy-meter/dataset/1

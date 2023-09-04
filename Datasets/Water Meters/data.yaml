@@ -1,0 +1,16 @@
+path: ../yolov5/watermeter
+train: train/images
+val: valid/images
+test: test/images
+
+names: 
+  0 : Dato
+  1 : Valor
+
+
+roboflow:
+  workspace: jasser-jv
+  project: water_meter-jy5gi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jasser-jv/water_meter-jy5gi/dataset/1
